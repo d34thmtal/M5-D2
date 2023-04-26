@@ -11,7 +11,7 @@ function CardsProd() {
       <Row className="row-cols-1 row-cols-md-2 row-cols-lg-3">
         {Books.map((elem, i) => (
           <Col key={i} xs={12} md={4} lg={3}>
-            <Card className="h-75 shadow">
+            <Card className="h-75 shadow" id='card-body'>
               <Card.Img className="p-3 h-50" variant="top" src={elem.img} />
               <Card.Body className="d-flex flex-column">
                 <Card.Title className="p-3 m-2">{elem.title}</Card.Title>
